@@ -16,11 +16,5 @@ public interface ShoppingInterface extends JpaRepository<UserModel,Integer> {
 	 List<UserModel> findByName(String name);
 	//List<CartModel> findByName(String name);
 	//List<UserModel> deletByid(int id);
-	//List<Usermodel> findById();
-	
-	
-	
-	
-	
+	//List<Usermodel> findById();	
 }
-
